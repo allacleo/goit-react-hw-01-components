@@ -2,7 +2,7 @@ import React from 'react';
 import T from 'prop-types';
 import styles from './FriendListItem.module.css';
 
-const FriendListItem = ({avatar, name, isOnline, alt}) => {
+const FriendListItem = ({avatar, name, isOnline}) => {
 return (
   <>
   <span className={styles.status}></span>
