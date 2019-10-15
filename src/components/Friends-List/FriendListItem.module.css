@@ -1,16 +1,22 @@
 .status {
-
-    width: 30px;
-    height: 30px;
-    background: blue;
-    border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+  background: red;
+  border-radius: 50%;
 } 
-
+.statusOnline {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+  border-radius: 50%;
+  background-color: green;
+}
   
   .friendAvatar{
-  margin: 20px 20px 25px 70px;
   width: 120px;
   border-radius: 10%;
-  
+  margin: 15px;
+  margin-left: 0;
   }
   

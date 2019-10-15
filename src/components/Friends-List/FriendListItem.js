@@ -5,7 +5,7 @@ import styles from './FriendListItem.module.css';
 const FriendListItem = ({avatar, name, isOnline}) => {
 return (
   <>
-  <span className={styles.status}></span>
+  <span className={isOnline ? styles.statusOnline : styles.status}></span>
     <img src={avatar} className={styles.friendAvatar} alt={name}/>
     <p>{name}</p>
     </>
@@ -19,7 +19,7 @@ FriendListItem.defaultProps={
 
 FriendListItem.T = {
   avatar: T.string,
-  status: T.string.isRequired,
+  isOnline: T.string.isRequired,
   name: T.string.isRequired,
 };
 
