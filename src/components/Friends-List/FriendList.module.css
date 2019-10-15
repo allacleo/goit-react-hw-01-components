@@ -1,0 +1,22 @@
+  
+.friendlist {
+    padding: 4px 10px;
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0 50px;
+    width: 400px;
+    font-size: 30px;
+    font-family: sans-serif;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    padding: 4px 10px;
+    margin-bottom: 16px;
+    box-shadow: 0 5px 10px rgba(127, 133, 139, 0.75);
+    margin-bottom: 30px;
+  }
+ 
