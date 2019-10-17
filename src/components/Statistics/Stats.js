@@ -17,7 +17,7 @@ const Stats = ({ title, stats }) => {
 
   return (
     <section className={styles.stats}>
-      <h2 className={styles.title}>{title}</h2>
+      {title && <h2 className={styles.title}>{title}</h2>}
 
       <ul className={styles.list}>{listItems}</ul>
     </section>
@@ -25,7 +25,7 @@ const Stats = ({ title, stats }) => {
 };
 
 Stats.defaultProps = {
-  title: '',
+  title: '____',
 };
 
 Stats.T = {

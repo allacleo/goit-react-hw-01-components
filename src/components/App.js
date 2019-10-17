@@ -13,7 +13,7 @@ import TransactionHistory from '../components/TransactionHistory/TransactionHist
 const App = () => (
     <div className={styles.app}>
       <Profile user={user} />
-      <Stats title="Upload stats" stats={stats} />
+      <Stats title= "Upload stats" stats={stats} />
       <FriendList friends={friends} />
        <TransactionHistory items={transaction} />
     </div>

@@ -24,9 +24,14 @@ const FriendList = ({ friends }) => {
   return <ul className={styles.friendlist}>{friendsItem}</ul>;
 };
 
-// FriendList.T = {
-//   friends: T.arrayOf(T.object).isRequired,
-// };
+FriendList.T = {
+  friends: T.arrayOf(T.shape({
+    id: T.string.isRequired,
+    name: T.string.isRequired,
+    isOnline: T.string.isRequired,
+  }),
+  ).isRequired,
+};
 
 export default FriendList;
 
